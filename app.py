@@ -41,11 +41,11 @@ app.config['SECRET_KEY'] = os.urandom(64)
 
 # Celery configuration
 # Local
-app.config['CELERY_BROKER_URL'] = 'redis://localhost:6379/0'
-app.config['CELERY_RESULT_BACKEND'] = 'redis://localhost:6379/0'
+# app.config['CELERY_BROKER_URL'] = 'redis://localhost:6379/0'
+# app.config['CELERY_RESULT_BACKEND'] = 'redis://localhost:6379/0'
 # Render
-# app.config['CELERY_BROKER_URL'] = 'redis://red-ckuj4bjamefc738qi0v0:6379/0'
-# app.config['CELERY_RESULT_BACKEND'] = 'redis://red-ckuj4bjamefc738qi0v0:6379/0'
+app.config['CELERY_BROKER_URL'] = 'redis://red-ckuj4bjamefc738qi0v0:6379/0'
+app.config['CELERY_RESULT_BACKEND'] = 'redis://red-ckuj4bjamefc738qi0v0:6379/0'
 
 
 # session
