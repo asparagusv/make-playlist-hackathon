@@ -41,11 +41,11 @@ app.config['SECRET_KEY'] = os.urandom(64)
 
 # Celery configuration
 # Local
-# app.config['CELERY_BROKER_URL'] = 'redis://localhost:6379/0'
-# app.config['CELERY_RESULT_BACKEND'] = 'redis://localhost:6379/0'
+app.config['CELERY_BROKER_URL'] = 'redis://localhost:6379/0'
+app.config['CELERY_RESULT_BACKEND'] = 'redis://localhost:6379/0'
 # Render
-app.config['CELERY_BROKER_URL'] = 'redis://red-ckuj4bjamefc738qi0v0:6379/0'
-app.config['CELERY_RESULT_BACKEND'] = 'redis://red-ckuj4bjamefc738qi0v0:6379/0'
+# app.config['CELERY_BROKER_URL'] = 'redis://red-ckuj4bjamefc738qi0v0:6379/0'
+# app.config['CELERY_RESULT_BACKEND'] = 'redis://red-ckuj4bjamefc738qi0v0:6379/0'
 
 
 # session
@@ -440,13 +440,12 @@ def make_playlist(auth_info, howto, playlists):
 
   # addBPM_Playlist(start, end, dur, playlists) # プレイリストの作成
 
-  match howto:
-        case "BPM":
-          addBPM_Playlist(start, end, dur, playlists) # プレイリストの作成
-        case "CLS":
-          addCLS_Playlist(playlists) # プレイリストの作成
-        case _:
-            return "Something's wrong with the internet"
+  if howto == "BPM":
+    addBPM_Playlist(start, end, dur, playlists)  # プレイリストの作成
+  elif howto == "CLS":
+    addCLS_Playlist(playlists)  # プレイリストの作成
+  else:
+    print("Something's wrong with the internet")
 
   return 0
 
