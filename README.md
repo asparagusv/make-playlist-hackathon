@@ -21,6 +21,6 @@ terminal 1
 venv/bin/python app.py
 ```
 
-ref
-<https://github.com/miguelgrinberg/flask-celery-example>
+ref  
+<https://github.com/miguelgrinberg/flask-celery-example>  
 <https://redis.io/docs/install/install-redis/install-redis-on-windows/>
