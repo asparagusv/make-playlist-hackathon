@@ -1,4 +1,13 @@
-https://github.com/asparagusv/make-playlist-hackathon/assets/41145723/52fcbe1d-948b-474f-b211-ad3f664fba7a
+
+
+https://github.com/asparagusv/make-playlist-hackathon/assets/41145723/1dd0fb55-5627-4f3f-8742-1c06d987029f
+
+![1_3 1 1](https://github.com/asparagusv/make-playlist-hackathon/assets/41145723/ce36571a-41f8-49e5-bc05-8e09a4122406)
+![2_3 1 2](https://github.com/asparagusv/make-playlist-hackathon/assets/41145723/dfe12640-a72c-460d-aa19-305abe36a0b3)
+![3_3 2 1](https://github.com/asparagusv/make-playlist-hackathon/assets/41145723/bd186064-4f25-4de6-b7de-349890945cae)
+![4_3 2 2](https://github.com/asparagusv/make-playlist-hackathon/assets/41145723/5ced6dc2-9507-4307-93a6-ae0a11ace1e1)
+![5_3 2 3](https://github.com/asparagusv/make-playlist-hackathon/assets/41145723/1eeb6edc-4750-47cf-beb3-1df58c5251cd)
+![6_3 4 1](https://github.com/asparagusv/make-playlist-hackathon/assets/41145723/d5014785-59af-428c-adf1-4336e4c0ad33)
 
 
 #Mac/Linux
